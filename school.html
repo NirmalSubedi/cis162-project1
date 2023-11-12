@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="About, Portfolio, Cerritos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio: Nirmal Subedi</title>
+        <link href="main.css" rel="stylesheet" />
+    </head>
+<body>
+    <header><h1><a href="index.html">Nirmal Subedi</a></h1></header>
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="school.html">School</a></li>
+        </ul>
+    </nav>
+
+    <section id="rightColumn">
+        <h1>Cerritos College</h1>
+        <p>
+            I attend school at <a href="https://www.cerritos.edu/">Cerritos College.</a> The career path that I am 
+            pursuing is in Computer Science. The reason being that I wanted to learn more about computers and how 
+            to work with them. Hence, learning to code will help towards that goal. Furthermore, it will also allow
+            me to program to tell the computer to perform a certain task for me. Which brings about many endless 
+            possiblities of which tasks I can off load to it, giving me freedom from them.
+        </p>
+    </section>
+
+    <section id="leftColumn"><img src="CC(logo).jpg" alt="Cerritos College Logo" id="CClogo"></section>
+
+    <footer>
+        <p>Last updated: <span id="last-modified"></span></p>
+        <script>
+            const lastModified = new Date(document.lastModified);
+            const date = lastModified.toLocaleDateString();
+            document.getElementById("last-modified").textContent = date;
+        </script>
+        <p>Get in Contact: <a href="mailto:nirmalsubedi@example.com">Email!</a></p>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ffa8a8;
+}
+
+/* Body and Header Styles */
+
+body {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #FF8080;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header > h1 {
+    color: black;
+    border: 0;
+    background-color: #8BC274;
+    padding: 10px 0px 12px 0px;
+}
+
+header > h1 > a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation Styles */
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF8080;
+}
+
+nav > ul > li {
+    width: 16.66%;
+    float: left;
+    text-align: center;
+}
+
+
+nav > ul > li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav > ul > li:last-of-type {
+    border-right: 1px solid #8BC274;
+}
+
+nav > ul > li a:hover {
+    background-color: #e95e5e;
+}
+
+/* Heading and Section Styles (content) */
+
+h1, h2 {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+section {
+    height: max-content;
+    font-size: larger;
+    padding: 16px 16px;
+    text-align: center;
+}
+
+section a {
+    color: white;
+}
+
+section a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.centerList {
+    text-align: center;
+}
+
+div.centerList > ul, ol {
+    display: inline-block;
+    text-align: left;
+}
+
+#leftColumn {
+    display: block;
+    float: left;
+    width: 50%;
+    background-color: #e95e5e;
+    border-right: 1px solid #8BC274;
+    text-align: center;
+}
+
+#rightColumn {
+    display: block;
+    float: right;
+    width: 50%;
+    background-color: #FF8080;
+}
+
+section > img {
+    padding: 0;
+    max-width: 85%;
+    max-height: 85%;
+}
+
+section > img#CClogo {
+    padding: 0;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+/* Footer Styles */
+
+footer {
+    clear: both;
+    background-color: #8BC274;
+    color: black;
+    font-family: fantasy;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    background-color: black;
+}

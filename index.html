@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="About, Portfolio, Cerritos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio: Nirmal Subedi</title>
+    <link href="main.css" rel="stylesheet" />
+</head>
+<body>
+    <header><h1>Nirmal Subedi</h1></header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="school.html">School</a></li>
+        </ul>
+    </nav>
+    <section id="leftColumn">
+        <h2>About Me</h2>
+    <p>
+        I am Nirmal Subedi, a student in CIS 162. I hope to learn quite a bit about coding in this course. I am hoping to learn how to code a website to make it look how
+        I want it to look in my head. However, if that is not possible, I at least hope to make it as close as possible to my imagination. Anyway, let's enjoy this journey
+        through thiscourse and learn as much as possible!
+    </p>
+    </section>
+
+    <section id="rightColumn">
+    <h1>When I have free time</h1>
+
+    <div class="centerList">
+    <ul style="list-style-type:circle;">
+        <li>Listen to music.</li>
+        <li>Watch youtube videos.</li>
+        <li>Go for a Walk.</li>
+    </ul>
+    </div>
+    <br>
+    <p>My favorite web site is <a href="https://www.youtube.com/">YouTube</a> because there are a lot of informative and entertaining videos.</p>
+    </section>
+
+    <footer>
+        <p>Last updated: <span id="last-modified"></span></p>
+        <script>
+            const lastModified = new Date(document.lastModified);
+            const date = lastModified.toLocaleDateString();
+            document.getElementById("last-modified").textContent = date;
+        </script>
+        <p>Get in Contact: <a href="mailto:nirmalsubedi@example.com">Email!</a></p>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

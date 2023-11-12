@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="About, Portfolio, Cerritos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio: Nirmal Subedi</title>
+    <link href="main.css" rel="stylesheet" />
+</head>
+<body>
+    <header><h1><a href="index.html">Nirmal Subedi</a></h1></header>
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="school.html">School</a></li>
+        </ul>
+    </nav>
+
+    <section id="leftColumn"><img src="WP(logo).jpg" alt="WordPress Logo"></section>
+    
+    <section id="rightColumn">
+    <h1>Education Goals</h1>
+    <div class="centerList">
+    <ol>
+        <li>Pass the course.</li>
+        <li>Retain the knowledge learned.</li>
+        <li>Challenge myself while learning.</li>
+    </ol>
+    </div>
+    <br>
+    <h1>Skills</h1>
+    <div class="centerList">
+    <ol>
+        <li>Know the basics of WordPress.</li>
+        <li>Know a bit of Python.</li>
+        <li>Know of design fundementals.</li>
+    </ol>
+    </div>
+    </section>
+
+    <footer>
+        <p>Last updated: <span id="last-modified"></span></p>
+        <script>
+            const lastModified = new Date(document.lastModified);
+            const date = lastModified.toLocaleDateString();
+            document.getElementById("last-modified").textContent = date;
+        </script>
+        <p>Get in Contact: <a href="mailto:nirmalsubedi@example.com">Email!</a></p>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
